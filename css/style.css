@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #48555B;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.hero {
+    background: url("../images/first.png") fixed no-repeat center/cover;
+    height: 100vh;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.hero-title {
+    font-family: "BebasNeueBold", sans-serif;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 5.70937px;
+    text-align: center;
+}
+
+.hero-desc {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.Logo {
+    padding-top: 41px;
+}
+
+.scroll-down {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 3.7px;
+    padding-bottom: 71px;
+}
+
+.header {
+    padding: 21px 0;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.container {
+    max-width: 941px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.flex-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-menu-item {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 35px;
+    text-transform: uppercase;
+}
+.header-menu-item:hover{
+    color: #00A4E5;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 2.30625px;
+    text-align: center;
+    padding-bottom: 72px;
+    position: relative;
+
+}
+.section-title:before{
+    content: '';
+    position: absolute;
+    width: 50px;
+    background: #00A4E5;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    height: 3px;
+}
+
+.story {
+    padding: 57px 0 57px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.story-heading {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.1875px;
+    margin-bottom: 30px;
+}
+
+.story-heading span {
+    color: #00A4E5
+}
+
+.story-content {
+    padding-right: 66px
+}
+
+.story-info {
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.1875px;
+}
+
+.we-plan {
+    background: url("../images/plan.png") no-repeat center/cover;
+}
+.we-manage {
+    background: url("../images/manage.png")no-repeat center/cover;
+}
+
+.we-build {
+    background: url("../images/build.png")no-repeat center/cover;
+}
+
+.col-4 {
+    width: 33.333%;
+    padding: 0 15px;
+}
+
+.about-info-item {
+    height: 225px;
+}
+.about-info-item-row{
+
+}
+
+.about-info-item p {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1875px;
+    color: white;
+    padding: 15px 15px 0;
+}
+
+.col-8 {
+    padding: 0 15px;
+    width: 66.666%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.cap-title {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 2.30625px;
+    position: relative;
+
+}
+.cap-title:before{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    bottom: -10px;
+    background: #00A4E5;
+
+}
+
+.cap-desc {
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    padding-right: 75px;
+    padding-top: 15px;
+}
+
+.btn {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background: #00A4E5;
+    min-width: 150px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cap-content {
+    border: 1px solid #E6E6E6;
+    padding: 39px 23px;
+
+}
+
+.cap-heading {
+    margin: 25px 0 13px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.426667px;
+}
+
+.cap-subtitle {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.1875px;
+}
+
+.cap-item {
+    margin-bottom: 78px;
+}
+
+.get-in-touch {
+    background: url("../images/bg.png") no-repeat center/cover;
+    background-position-y:2px;
+    height:499px;
+    text-align: center;
+    padding-top: 120px
+}
+.get-in-subject{
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    margin-bottom: 35px;
+}
+.newsletter{
+
+    padding: 30px 0;
+    background-color: #171819;
+}
+.newsletter .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter-form{
+    display: flex;
+    align-items: center;
+}
+.newsletter-form-input{
+    height: 40px;
+    border:1px solid #979797;
+    margin-right: -1px;
+    width: 250px;
+    padding: 0 16px;
+}
+.newsletter-form{
+    display: flex;
+    margin-left: 70px;
+}
+.newsletter-caption{
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFF;
+    letter-spacing: 0.846154px;
+}
+.title-menu{
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.846154px;
+}
+.menu-content{
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.85px;
+}
+.footer{
+    display: flex;
+    background-color: #141A20;
+    color: #FFFFFF;
+    padding: 41px 0 40px;
+}
+.footer-wrap {
+    display: flex;
+}
+.footer-list-group{
+    display: flex;
+}
+.footer-list-item{
+    list-style: none;
+}
+
+.footer-social{
+    font-size: 13px;
+    width: 20%;
+}
+.footer-social a:hover{
+    color: #00A4E5;
+}
+.footer-social a:not(:last-child){
+    margin-right: 24px;
+}
+
+.footer-contact-info{
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.846154px;
+}
+.footer-company{
+    width: 29%;
+    margin-right: 34px;
+}
+.footer-logo{
+    margin: 9px 0 16px;
+}
+.footer-links{
+    margin-right: 28px;
+}
+.footer-contact{
+    width: 15%;
+    margin-right: 46px;
+}
+.footer-subtitle{
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+}
+.footer-social-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-list{
+    margin-right: 34px;
+}
+.footer-list-second{
+    margin-right: 38px;
+}
+.footer-list-item {
+    font-size: 11px;
+    line-height: 25px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+}
+.last-text{
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    color:#FFFFFF;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+.bottom-footer {
+    padding: 22px 0 23px;
+    background-color:#171819;
+}
+.footer-social-inner{
+    padding-bottom: 78px;
+}
